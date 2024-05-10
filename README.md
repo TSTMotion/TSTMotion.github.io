@@ -4,7 +4,8 @@ This is the repository that contains source code for the [STMotion website]([htt
 
 If you find Nerfies useful for your work please cite:
 ```
-@article{,
+@article{
+                ,
   author    = {},
   title     = {STMotion: Training-free Scene-aware Text-to-motion Generation},
   journal   = {},
