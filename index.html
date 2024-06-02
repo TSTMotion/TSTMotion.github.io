@@ -292,6 +292,9 @@
 
 <section class="hero is-light is-small">
   <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Result</h2>
+    </div>
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-1">
@@ -299,88 +302,87 @@
             <source src="./static/videos/Balance_on_the_table.mp4"
                     type="video/mp4">
           </video>
-          Balance on the table
+          <p>Balance on the table</p>
         </div>
         <div class="item item-2">
           <video poster="" id="2" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Box_in_front_of_the_punching_bag.mp4"
                     type="video/mp4">
           </video>
-          Box in front of the punching bag
+          <p>Box in front of the punching bag</p>
         </div>
         <div class="item item-3">
           <video poster="" id="3" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Dance_happiliy_in_front_of_the_mirror.mp4"
                     type="video/mp4">
           </video>
-          Dance happiliy in front of the mirror
+          <p>Dance happiliy in front of the mirror</p>
         </div>
         <div class="item item-4">
           <video poster="" id="4" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Do_a_handstand_in_front_of_the_chair.mp4"
                     type="video/mp4">
           </video>
-          Do a handstand in front of the chair
+          <p>Do a handstand in front of the chair</p>
         </div>
         <div class="item item-5">
           <video poster="" id="5" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Fly_kick_with_his_left_leg_on_the_door.mp4"
                     type="video/mp4">
           </video>
-          Fly kick with his left leg on the door
+          <p>Fly kick with his left leg on the door</p>
         </div>
         <div class="item item-6">
           <video poster="" id="6" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Lie_on_the_table.mp4"
                     type="video/mp4">
           </video>
-          Lie on the table
+          <p>Lie on the table</p>
         </div>
         <div class="item item-7">
           <video poster="" id="7" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Sit_on_the_couch.mp4"
                     type="video/mp4">
           </video>
-          Sit on the couch
+          <p>Sit on the couch</p>
         </div>
         <div class="item item-8">
           <video poster="" id="8" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Swim_in_the_middle_of_swiming_pool.mp4"
                     type="video/mp4">
           </video>
-          Swim in the middle of swiming pool
+          <p>Swim in the middle of swiming pool</p>
         </div>
         <div class="item item-9">
           <video poster="" id="9" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Walk_as_a_chicken_towards_the_barn.mp4"
                     type="video/mp4">
           </video>
-          Walk as a chicken towards the barn
+          <p>Walk as a chicken towards the barn</p>
         </div>
         <div class="item item-10">
           <video poster="" id="10" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Walk_in_a_counterclockwise_circle.mp4"
                     type="video/mp4">
           </video>
-          Walk in a counterclockwise circle
+          <p>Walk in a counterclockwise circle</p>
         </div>
       </div>
-      The jitter and flicker of the motion sequences occurs in the step of converting the skeleton into mesh, which is limited by the performance of <a href="https://github.com/wangsen1312/joints2smpl">joints2smpl</a>.
+      <p>The jitter and flicker of the motion sequences occurs in the step of converting the skeleton into mesh, which is limited by the performance of <a href="https://github.com/wangsen1312/joints2smpl">joints2smpl</a>.</p>
     </div>
   </div>
 </section>
 
 
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
-
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Result</h2>
+    </div>
     <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <!-- <div class="column">
+      <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
           <p>
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
@@ -390,123 +392,10 @@
                     type="video/mp4">
           </video>
         </div>
-      </div> -->
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <!-- <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
       </div>
-    </div> -->
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <!-- <h2 class="title is-3">Animation</h2> -->
-
-        <!-- Interpolating. -->
-        <!-- <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/> -->
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div> -->
-        <!--/ Re-rendering. -->
-
-      </div>
+  
     </div>
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
-
-  </div>
-</section>
+</section> -->
 
 
 <!-- <section class="section" id="BibTeX">
