@@ -21,16 +21,16 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet"> -->
 
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <!-- <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css"> -->
   <!-- <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> -->
-  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="stylesheet" href="./static/css/index.css"> -->
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -252,9 +252,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          While text-to-motion generation has garnered significant research attention recently, most existing works focus on generating human motion sequences in a blank background. However, human beings frequently enact their movements within a variety of 3D scenes. In order to enable such motion sequences to properly interact with 3D scenes, there has been some exploration like intuitively training a specific scene-aware text-to-motion generator.
-          Yet, such methods require large-scale ground-truth motion sequences in diverse 3D scenes, which can be difficult to collect and annotate. To mitigate this challenge, we propose a novel training-free framework named <b>STMotion</b> (<b>S</b>cene-aware <b>T</b>ext-to-<b>Motion</b>) based on the collaboration of foundation models. 
-          Concretely, we design a <b>Scene Compiler</b> to represent 3D scenes in a text format, an <b>Motion Planner</b> to comprehend 3D scenes and formulate motion sequences within 3D scenes, and a <b>Motion Checker</b> to further align motion sequences with the given text descriptions and 3D scenes. Extensive experiments demonstrate the efficacy and generalizability of our proposed framework.
+          Text-to-motion generation has recently garnered significant research attention, with a predominant focus on generating human motion sequences in blank backgrounds. However, human motions commonly occur within a variety of 3D scenes. The need to enable motion sequences to properly interact with 3D scenes has prompted exploration into scene-aware text-to-motion generation methods. Despite this progress, these methods often rely on large-scale ground-truth motion sequences in diverse 3D scenes for model training, which can be cumbersome and costly. To mitigate this challenge, we propose, for the first time, a Training-free Scene-aware Text-to-Motion framework, named TSTMotion, that efficiently endows off-the-shelf blank-background motion generators with scene-aware capability. Specifically, conditioned on the given 3D scene and text description, we adopt foundation models to reason, predict, and validate a scene-aware motion guidance. The motion guidance is then incorporated into the blank-background motion generators through our training-free modifications, enabling TSTMotion to generate desired motion sequences. Extensive experiments demonstrate the efficacy and generalizability of our proposed framework.
         </div>
       </div>
     </div>
