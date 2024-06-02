@@ -38,8 +38,15 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+
 </head>
 <body>
+
+
 
 <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
@@ -280,13 +287,22 @@
         <h2 class="title is-3">Method</h2>
         <div class="content has-text-justified">
           <img src="./static/images/Method.png">
-          An overview of our proposed <i>training-free</i> TSTMotion framework for the given text <i>t</i> and 3D scene <i>S<sub>3D</sub></i>. At first, the Scene Compiler extracts the object layout in the 3D scenes <i>S<sub>3D</sub></i>. Then, the Motion Planner incorporates the spatial layout information and textual description to infer the motion guidance, which is later passed to the Motion Diffusion Model to predict initial scene-aware motion sequences. Finally, the Motion Checker is applied to iteratively refine and generate final motion sequence that is better aligned with the given 3D scene and text descriptions.
+          An overview of our proposed <i>training-free</i> TSTMotion framework for the given text <i>t</i> and 3D scene <i>S<sub>3D</sub></i> . At first, the Scene Compiler extracts the object layout in the 3D scenes <i>S<sub>3D</sub></i> . Then, the Motion Planner incorporates the spatial layout information and textual description to infer the motion guidance, which is later passed to the Motion Diffusion Model to predict initial scene-aware motion sequences. Finally, the Motion Checker is applied to iteratively refine and generate final motion sequence that is better aligned with the given 3D scene and text descriptions.
         </div>
       </div>
     </div>
   </div>
 </section>
 
+
+<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+  <source src="./static/videos/Balance on the table.mkv" type="video/mkv">
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video>
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -472,3 +488,11 @@
 
 </body>
 </html>
+
+<script>
+  videojs.options.flash.swf = "https://videojs.github.io/videojs-swf/dist/video-js.swf";
+  var player = videojs('my-video');
+  player.ready(function() {
+    player.load();
+  });
+</script>
