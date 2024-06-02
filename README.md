@@ -4,8 +4,7 @@ This is the repository that contains source code for the [TSTMotion website](htt
 
 If you find TSTMotion useful for your work please cite:
 ```
-@article{
-                ,
+@article{       ,
   author    = {},
   title     = {TSTMotion: Training-free Scene-aware Text-to-motion Generation},
   journal   = {},
