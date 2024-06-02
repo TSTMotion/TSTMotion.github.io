@@ -8,7 +8,7 @@ If you find TSTMotion useful for your work please cite:
   author    = {},
   title     = {TSTMotion: Training-free Scene-aware Text-to-motion Generation},
   journal   = {},
-  year      = {},
+  year      = {2024},
 }
 ```
 
