@@ -1,13 +1,13 @@
-# STMotion: Training-free Scene-aware Text-to-motion Generation
+# TSTMotion: Training-free Scene-aware Text-to-motion Generation
 
-This is the repository that contains source code for the [STMotion website](https://anonymouslolsacsa.github.io/STMotion.github.io/).
+This is the repository that contains source code for the [TSTMotion website](https://anonymouslolsacsa.github.io/TSTMotion.github.io/).
 
-If you find Nerfies useful for your work please cite:
+If you find TSTMotion useful for your work please cite:
 ```
 @article{
                 ,
   author    = {},
-  title     = {STMotion: Training-free Scene-aware Text-to-motion Generation},
+  title     = {TSTMotion: Training-free Scene-aware Text-to-motion Generation},
   journal   = {},
   year      = {},
 }
