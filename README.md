@@ -1,6 +1,6 @@
 # TSTMotion: Training-free Scene-aware Text-to-motion Generation
 
-This is the repository that contains source code for the [TSTMotion website](https://anonymouslolsacsa.github.io/TSTMotion.github.io/).
+This is the repository that contains project pages for the [TSTMotion website](https://anonymouslolsacsa.github.io/TSTMotion.github.io/).
 
 If you find TSTMotion useful for your work please cite:
 ```
