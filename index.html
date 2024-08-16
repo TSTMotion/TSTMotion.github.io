@@ -208,7 +208,7 @@
         <h2 class="title is-3">Method</h2>
         <div class="content has-text-justified">
           <img src="./static/images/Method.png">
-          An overview of our proposed <i>training-free</i> TSTMotion framework for the given text <i>t</i> and 3D scene <i>S<sub>3D</sub></i> . At first, the Scene Compiler extracts the object layout in the 3D scenes <i>S<sub>3D</sub></i> . Then, the Motion Planner incorporates the spatial layout information and textual description to infer the motion guidance, which is later passed to the Motion Diffusion Model to predict initial scene-aware motion sequences. Finally, the Motion Checker is applied to iteratively refine and generate final motion sequence that is better aligned with the given 3D scene and text descriptions.
+          An overview of our proposed training-free TSTMotion framework for the given text $d$ and 3D scene $S_{3D}$. At first, the Scene Compiler extracts the spatial auxiliary in the $S_{3D}$. Based on the spatial auxiliary, the Motion Planner incorporates the text description and well-designed prompt templates to infer the motion guidance $s[M_{mask}]$. Equipped with the $s[M_{mask}]$, the Aligned Motion Diffusion Model predicts initial scene-aware text-driven motion sequences $m$ with two training-free modifications. Finally, the Motion Checker is applied to iteratively refine and generate final $m$ to better align with the $d$ and $S_{3D}$.
         </div>
       </div>
     </div>
