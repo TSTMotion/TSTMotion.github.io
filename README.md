@@ -1,4 +1,4 @@
-# TSTMotion: Training-free Scene-aware Text-to-motion Generation
+# [ICME2025] TSTMotion: Training-free Scene-aware Text-to-motion Generation
 
 This is the repository that contains project pages for the [TSTMotion website](https://TSTMotion.github.io/TSTMotion.github.io/).
 
